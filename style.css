@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right bottom, #d44040,#294f88) ;
+    color: white;
+}
+.contanier{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 22px 35px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow:8px 8px 4px #1d1b1b56, 8px 8px 0px #362b2b52
+}
+.contanier h1{
+    font-size: 1.5 rem;
+    margin-block: 10;
+}
+.passBox {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-block: 10px;
+
+}
+.row{
+    display: flex;
+    margin-block: 8px;
+    flex-wrap: nowrap;
+    float: none;
+    
+}
+.row p, .row label{
+    flex-basis: 70%;
+}
+.genBtn{
+    border: none;
+    outline: none;
+    background-color: #294f88;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 700;
+    margin-block: 10px;
+    cursor: pointer;
+}
+.genBtn:hover{
+    background-color: #4f40d4;
+}
